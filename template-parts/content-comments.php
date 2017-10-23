@@ -1,0 +1,2 @@
+    <li><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?><span><?php comments_number( 'No Comments Yet', '1 Comment', '% Comments' ); ?></span></a></li>
+                       
